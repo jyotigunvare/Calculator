@@ -1,9 +1,8 @@
 .calculator{
-
-    height: 380px;
-    width: 400px;
-    
-    
+    height:500px;
+    width: 520px;
+    text-align: center;
+  
 } 
 .display-box{
     background-color: green;
@@ -12,14 +11,28 @@
      width:250px;
     height: 50px; 
     padding: 10px;
+    
 }
 input[type=button] {
     font-family: 'Orbitron', sans-serif;
     background-color: skyblue;
-    color: white;
+    color: black;
     border: solid white 0.5px;
     width: 100%;
-    height: 70%;
+    height: 100%;
     padding: 20px;
+    
+    }
+    table{
+        background-color: rgb(34, 227, 169);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 500px;
+        box-shadow: 5px 10px 18px rgb(49, 43, 57);
+
     }
     
